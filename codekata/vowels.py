@@ -3,8 +3,8 @@ b=y.isalpha()
 if len(y)==1:
 	if b==True:
 			if y in ('a', 'e', 'i', 'o', 'u','A','E','I','O','U'):
-				print('Vowel')
+				print('Vowel');
 			else:
-				print('Consonant')
+				print('Consonant');
 	else:
-		print('invalid')		
+		print('invalid');		
