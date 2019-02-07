@@ -1,7 +1,7 @@
 y=raw_input()
-b=y.isalpha()
+c=y.isalpha()
 if len(y)==1:
-	if b==True:
+	if c==True:
 		print('Alphabet');
 	else:
 		print('No');	
