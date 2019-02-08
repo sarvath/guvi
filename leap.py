@@ -1,11 +1,11 @@
-year = int(input("Enter Year: "))
-
-
-if year % 4 == 0 and year % 100 != 0:
-    print(year, "yes");
-elif year % 100 == 0:
-    print(year, "no");
-elif year % 400 ==0:
-    print(year, "no");
+while True:
+	try:
+		a=int(input())
+		break
+	except:
+		print("Invalid input");
+		break
+if a%400==0 or a%4==0 and a%100 != 0:
+	print('yes');
 else:
-    print(year, "no");
+	print('no');
