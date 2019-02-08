@@ -8,5 +8,4 @@ while True:
 b=0
 for x in range(a):
 	b=b+x
-print(b+a
-)
+print(b+a)
