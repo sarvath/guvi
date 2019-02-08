@@ -6,5 +6,5 @@ if len(y)==1:
 				print('Vowel');
 			else:
 				print('Consonant');
-	else:
-		print('invalid');		
+else:
+	print('invalid');		
