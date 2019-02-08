@@ -1,9 +1,9 @@
 while True:
 	try:
-		a=int(input())
+		a=int(input());
 		break
 	except:
-		print("Invalid input")
+		print("Invalid input");
 		break
 b=0
 for x in range(a):
